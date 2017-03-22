@@ -1,0 +1,32 @@
+{
+  "name": "can",
+  "plural": "cans",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "messages": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    },
+    "groupID": {
+      "type": "string",
+      "required": true,
+      "default": "0"
+    },
+    "created": {
+      "type": "number"
+    },
+    "owner": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
